@@ -1,0 +1,39 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    /* width: 1024px;
+    height: 768px; */
+    line-height: 2;
+}
+
+ol li ul li{
+    list-style-type: disc;
+}
+
+img {
+    height: 200px;
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+div.image {
+    padding-top: 103px;
+    padding-right: 0px;
+}
+
+div.CV {
+    margin-left: 0px;
+
+}
+
+code {
+    font-size: 12px;
+}
+
+div.code {
+    background-color: #ecebeb;
+}
