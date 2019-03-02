@@ -21,19 +21,16 @@ div.container {
 }
 
 div.image {
-    padding-top: 103px;
-    padding-right: 0px;
+    position: relative;
+    top: 103px;
+    right: 226px;
 }
 
 div.CV {
     margin-left: 0px;
-
-}
-
-code {
-    font-size: 12px;
 }
 
 div.code {
     background-color: #ecebeb;
+    font-size: 12px;
 }
