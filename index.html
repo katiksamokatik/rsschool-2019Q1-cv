@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CV Kate Lapitskaya</title>
+        <link rel="stylesheet" href="..\rsschool-2019Q1-cv\styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    </head>
+    <body>
+    <div class="container">
+      <div class="image"><img src="https://bugaga.ru/uploads/posts/2008-08/1219057048_4522710ubf.jpg" alt="my photo"></div>
+      <div class="CV">
+        <h1>CV of Ekaterina Lapitskaya</h1>
+        <ol>
+          <li>Name: <strong>Ekaterina Lapitskaya</strong></li>
+          <li>Contacts: 
+            <ul>
+              <li><i>mob.: +375 29 123 45 67</i></li>
+              <li><i>e-mail: yourmail@gmail.com</i></li>
+            </ul>
+          </li>
+          <li>Summary <br>
+            <span>I started learning JS because:</span>
+            <ul>
+              <li>JavaScript Runs Everywhere;</li>
+              <li>JavaScript Developers Are in High Demand;</li>
+              <li>Vibrant and Active Community;</li>
+              <li>Building Block for Other Programming Languages.</li>
+            </ul>            
+          </li>
+          <li>Skills
+            <ul>
+              <li><i>JavaScript</i></li>
+              <li><i>React JS</i></li>
+              <li><i>Vue</i></li>
+              <li><i>HTML/CSS</i></li>
+            </ul>
+          </li>
+          <li>Code example
+            <div class="code"><code><pre>
+&lt;script type="text/javascript"&gt
+  var rows = prompt("How many rows for your multiplication table?");
+  var cols = prompt("How many columns for your multiplication table?");
+    if(rows == "" || rows == null)
+      rows = 10;
+    if(cols== "" || cols== null)
+      cols = 10;
+  createTable(rows, cols);
+  
+  function createTable(rows, cols) {
+    var j=1;
+    var output = "&lt;table border='1' width='500' cellspacing='0'cellpadding='5'&gt";
+    for(i=1;i<=rows;i++) {
+      output = output + "&lt;tr&gt";
+      while(j<=cols) {
+        output = output + "&lt;td&gt" + i*j + "&lt/td&gt";
+        j = j+1;
+      }
+        output = output + "&lt;/tr&gt";
+        j = 1;
+    }
+     output = output + "&lt;/table&gt";
+     document.write(output);
+  }
+&lt;/script&gt</pre> </code></div>
+        </li>
+        <li> Work experience
+          <ul>
+            <li><i>2013-2015 HR Manager in "IBM Group"</i></li>
+            <li><i>2015-2016 Waitress in "Pekin Hotel"</i></li>
+            <li><i>2017-2018 Economist in "ITransition"</i></li>
+          </ul>
+        </li>
+        <li>Education
+          <ul>
+            <li><i>BSEU, Accounting & Economics (2009-2012)</i></li>
+            <li><i>RSSchool (2019)</i></li>
+          </ul>
+        </li>
+          <li>Languages
+            <ul>
+              <li><i>English B1 (Streamline 2013-2014)</i></li>
+              <li><i>Spanish C1 (Streamline 2016-2018)</i></li> 
+            </ul>
+          </li>     
+        </ol>
+      </div>
+    </div> 
+    </body>
+</html>

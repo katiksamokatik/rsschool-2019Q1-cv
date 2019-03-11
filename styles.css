@@ -1,0 +1,44 @@
+body {
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: bold;
+}
+
+ol li ul li{
+    list-style-type: disc;
+}
+
+img {
+    height: 250px;
+}
+
+div.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    width: 1024px;
+    margin: 0 auto;
+    border: 1px solid pink;
+}
+
+div.image {
+    position: absolute;
+    top: 103px;
+    right: 226px;
+}
+
+div.CV {
+    margin-left: 0px;
+}
+
+div.code {
+    font-size: 12px;
+    background-color: #ecebeb;
+}
+
+h1 {
+    letter-spacing: 0.15em;
+    color: rgb(20, 141, 84);
+}
