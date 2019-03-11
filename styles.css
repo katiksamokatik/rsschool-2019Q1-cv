@@ -2,6 +2,8 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     line-height: 2;
+    font-family: 'Playfair Display';
+    font-weight: bold;
 }
 
 ol li ul li{
@@ -9,7 +11,7 @@ ol li ul li{
 }
 
 img {
-    height: 200px;
+    height: 250px;
 }
 
 div.container {
@@ -17,11 +19,14 @@ div.container {
     justify-content: center;
     flex-direction: row-reverse;
     width: 1024px;
-    background-color: #eeeeee;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid pink;
+
 }
 
 div.image {
-    position: relative;
+    position: absolute;
     top: 103px;
     right: 226px;
 }
