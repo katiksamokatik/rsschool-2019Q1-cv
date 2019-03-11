@@ -1,8 +1,7 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
     font-size: 14px;
     line-height: 2;
-    font-family: 'Playfair Display';
     font-weight: bold;
 }
 
@@ -15,14 +14,13 @@ img {
 }
 
 div.container {
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
     width: 1024px;
     margin: 0 auto;
-    position: relative;
     border: 1px solid pink;
-
 }
 
 div.image {
@@ -36,8 +34,8 @@ div.CV {
 }
 
 div.code {
-    background-color: #ecebeb;
     font-size: 12px;
+    background-color: #ecebeb;
 }
 
 h1 {
